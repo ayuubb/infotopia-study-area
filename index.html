@@ -5,38 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Infotopia</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link href="./asset/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="./asset/css/owl.theme.default.css" rel="stylesheet">
 </head>
 
 <body>
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="./asset/img/logo-nav.png">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <img src="./asset/img/Icon metro-lines.png" alt="">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="./asset/img/LOGO.png" alt=""></a>
+                <button class="navbar-toggler text-center" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="./asset/img/Icon metro-lines.png" alt="">
+            <img class="mr-1 ml-1" src="./asset/img/Line .png" alt="">
+            <img src="./asset/img/Icon open-account-login.png" alt="">
             </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    LIBRARY
-                    <img class="button-down" src="./asset/img/down.png" alt="">
-                  </a>
 
-                        </li>
-                        <li class="nav-item dropdown menu-area">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link" href="#">library <img class="nav-down" src="./asset/img/down.png" alt=""></a>
+                        <div class="nav-item dropdown menu-area">
                             <a class="nav-link" href="#" id="mega-two" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     STUDY AREA
                     <img class="button-down" src="./asset/img/down.png" alt="">
                   </a>
-
-
                             <div class="dropdown-menu mega-area" aria-labelledby="mega-two">
                                 <div class="row justify-content-end">
                                     <div class="col-sm-6 col-lg-2 text-center">
@@ -77,29 +72,15 @@
                                     </div>
                                 </div>
                             </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    COURSES
-                    <img class="button-down" src="./asset/img/down.png" alt="">
-                  </a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    START-UPS
-                    <img class="button-down" src="./asset/img/down.png" alt="">
-                  </a>
-                        </li>
-                        <li>
-                            <img class="img-line" src="./asset/img/Line .png" alt="">
-                        </li>
-                        <li class="nav-login">
-                            <a class="nav-link" href="#">Login</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="#"><img src="./asset/img/login.png" alt=""></a>
-                        </li>
-                    </ul>
+                        </div>
+                        <a class="nav-link" href="#">courses<img class="nav-down" src="./asset/img/down.png" alt=""></a>
+                        <a class="nav-link" href="#">start-ups<img class="nav-down" src="./asset/img/down.png" alt=""></a>
+                        <a class="mr-2 login-area" href=""><img src="./asset/img/Line .png" alt=""></a>
+
+                        <div class="login-area">
+                            <a class="nav-link nav-login" href="#">log in <img class="nav-down" src="./asset/img/Icon open-account-login.png" alt=""></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -108,7 +89,7 @@
     <!-- STUDY AREA -->
 
     <section>
-        <div class="jumbotron jumbotron-fluid">
+        <div class="jumbotron">
             <div class="container">
                 <img class="img-fluid" src="./asset/img/Study Area.png" alt="">
                 <h5 class="">Welcome to the Study Area section of Infotopia Academy. Here you will find countless articles, written by industry experts and academics, for you to learn in four main categories. No fees will be charged to access any of these articles.
@@ -118,13 +99,13 @@
         </div>
     </section>
 
-    <section id="studi">
+    <section>
         <div class="container">
             <div class="categories text-center">
                 <h1>Learning Categories</h1>
                 <img src="./asset/img/LINE (Green).png" alt="">
             </div>
-            <div class="container">
+            <div class="container learning-area-one">
                 <div class="row justify-content-between">
                     <div class="col-md-5">
                         <div class="card card-no-border">
@@ -162,10 +143,43 @@
                         </div>
                     </div>
                 </div>
+
+
+
+                <div class="text-center">
+                    <img class="img-fluid img-line-barrier" src="./asset/img/LINE (Grey).png" alt="">
+                </div>
             </div>
-            <div class="text-center">
-                <img class="img-fluid img-line-barrier" src="./asset/img/LINE (Grey).png" alt="">
+            <div class="learning-area-two text-center">
+                <img class="" src="./asset/img/Illustration1.png" alt="">
+                <div class="mb-5 container ">
+                    <div class="owl-two owl-carousel owl-theme">
+                        <div class="text-center card">
+                            <div class="card-body text-center">
+                                <h6 class="card-titlte">Entrepreneurship</h6>
+                                <p class="card-text">With these articles you can better understand the essence of entrepreneurship, how to maintain your business, and the dynamics of an organisation</p>
+                                <a href="#" class="btn secondary">Secondary</a>
+                            </div>
+                        </div>
+                        <div class="text-center card">
+                            <div class="card-body text-center">
+                                <h6 class="card-titlte">Entrepreneurship</h6>
+                                <p class="card-text">With these articles you can better understand the essence of entrepreneurship, how to maintain your business, and the dynamics of an organisation</p>
+                                <a href="#" class="btn secondary">Secondary</a>
+                            </div>
+                        </div>
+                        <div class="text-center card">
+                            <div class="card-body text-center">
+                                <h6 class="card-titlte">Entrepreneurship</h6>
+                                <p class="card-text">With these articles you can better understand the essence of entrepreneurship, how to maintain your business, and the dynamics of an organisation</p>
+                                <a href="#" class="btn secondary">Secondary</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+
         </div>
     </section>
 
@@ -181,86 +195,49 @@
                 <div class="col-lg-2 item-categories"><a href="">Professional Fields</a></div>
                 <div class="col-lg-2 item-categories"><a href="">Research Reports</a></div>
             </div>
-
-            <div class="container-fluid">
-                <div class="row justify-content-between">
-                    <div class="col-sm-12">
-                        <div id="inam" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <div class="container">
-                                        <div class="row justify-content-around">
-                                            <div class="col-sm-12 col-lg-3">
-                                                <div class="card p-4 card-no-border card-article ">
-                                                    <img src="./asset/img/Illustration2.png " class="card-img-top img-fluid " alt="... ">
-                                                    <div class="card-body text-center ">
-                                                        <h5 class="card-title ">Insert Text</h5>
-                                                        <h5 class="card-title ">Insert Text</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-12 col-lg-3">
-                                                <div class="card p-4 card-no-border card-article ">
-                                                    <img src="./asset/img/Illustration2.png " class="card-img-top img-fluid " alt="... ">
-                                                    <div class="card-body text-center ">
-                                                        <h5 class="card-title ">Insert Text</h5>
-                                                        <h5 class="card-title ">Insert Text</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-12 col-lg-3">
-                                                <div class="card p-4 card-no-border card-article ">
-                                                    <img src="./asset/img/Illustration2.png " class="card-img-top img-fluid " alt="... ">
-                                                    <div class="card-body text-center ">
-                                                        <h5 class="card-title ">Insert Text</h5>
-                                                        <h5 class="card-title ">Insert Text</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="container">
-                                        <div class="row justify-content-around">
-                                            <div class="col-sm-12 col-lg-3">
-                                                <div class="card p-4 card-no-border card-article ">
-                                                    <img src="./asset/img/Illustration2.png " class="card-img-top img-fluid " alt="... ">
-                                                    <div class="card-body text-center ">
-                                                        <h5 class="card-title ">Insert Text</h5>
-                                                        <h5 class="card-title ">Insert Text</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-12 col-lg-3">
-                                                <div class="card p-4 card-no-border card-article ">
-                                                    <img src="./asset/img/Illustration2.png " class="card-img-top img-fluid " alt="... ">
-                                                    <div class="card-body text-center ">
-                                                        <h5 class="card-title ">Insert Text</h5>
-                                                        <h5 class="card-title ">Insert Text</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-12 col-lg-3">
-                                                <div class="card p-4 card-no-border card-article ">
-                                                    <img src="./asset/img/Illustration2.png " class="card-img-top img-fluid " alt="... ">
-                                                    <div class="card-body text-center ">
-                                                        <h5 class="card-title ">Insert Text</h5>
-                                                        <h5 class="card-title ">Insert Text</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#inam" class="carousel-control-prev" data-slide="prev">
-                            <img src="./asset/img/ARROW - Left (Short).png" alt="">
-                        </a>
-                        <a href="#inam" class="carousel-control-next" data-slide="next">
-                            <img src="./asset/img/ARROW - Right (Short).png" alt="">
-                        </a>
+        </div>
+        <div class="container">
+            <div class="owl-one owl-carousel owl-theme">
+                <div class="text-center card-article">
+                    <img src="./asset/img/Illustration2.png" class="card-img-top " alt="">
+                    <div class="card-body text-center">
+                        <h5 class="card-titlte">Insert Text</h5>
+                        <h5 class="card-titlte">Insert Text</h5>
+                    </div>
+                </div>
+                <div class="card-article">
+                    <img src="./asset/img/Illustration2.png" class="card-img-top " alt="">
+                    <div class="card-body text-center">
+                        <h5 class="card-titlte">Insert Text</h5>
+                        <h5 class="card-titlte">Insert Text</h5>
+                    </div>
+                </div>
+                <div class="card-article">
+                    <img src="./asset/img/Illustration2.png" class="card-img-top " alt="">
+                    <div class="card-body text-center">
+                        <h5 class="card-titlte">Insert Text</h5>
+                        <h5 class="card-titlte">Insert Text</h5>
+                    </div>
+                </div>
+                <div class="card-article">
+                    <img src="./asset/img/Illustration2.png" class="card-img-top " alt="">
+                    <div class="card-body text-center">
+                        <h5 class="card-titlte">Insert Text</h5>
+                        <h5 class="card-titlte">Insert Text</h5>
+                    </div>
+                </div>
+                <div class="card-article">
+                    <img src="./asset/img/Illustration2.png" class="card-img-top " alt="">
+                    <div class="card-body text-center">
+                        <h5 class="card-titlte">Insert Text</h5>
+                        <h5 class="card-titlte">Insert Text</h5>
+                    </div>
+                </div>
+                <div class="card-article">
+                    <img src="./asset/img/Illustration2.png" class="card-img-top " alt="">
+                    <div class="card-body text-center">
+                        <h5 class="card-titlte">Insert Text</h5>
+                        <h5 class="card-titlte">Insert Text</h5>
                     </div>
                 </div>
             </div>
@@ -275,7 +252,7 @@
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-md-5">
-                    <img src="./asset/img/Illustration3.png" alt="">
+                    <img class="img-fluid" src="./asset/img/Illustration3.png" alt="">
                 </div>
                 <div class="col-md-6 jumbotron-text">
                     <h3>Join Our Writing Team</h3>
@@ -307,73 +284,47 @@
                 </div>
             </div>
 
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div id="inam" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <div class="container">
-                                        <div class="row justify-content-around">
-                                            <div class="col-sm-12 col-lg-3">
-                                                <div class="card p-4 card-no-border card-article ">
-                                                    <img src="./asset/img/Illustration2.png " class="card-img-top img-fluid " alt="... ">
-                                                    <div class="card-body text-center ">
-                                                        <h5 class="card-title ">Insert Name</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-12 col-lg-3">
-                                                <div class="card p-4 card-no-border card-article ">
-                                                    <img src="./asset/img/Illustration2.png " class="card-img-top img-fluid " alt="... ">
-                                                    <div class="card-body text-center ">
-                                                        <h5 class="card-title ">Insert Name</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-12 col-lg-3">
-                                                <div class="card p-4 card-no-border card-article ">
-                                                    <img src="./asset/img/Illustration2.png " class="card-img-top img-fluid " alt="... ">
-                                                    <div class="card-body text-center ">
-                                                        <h5 class="card-title ">Insert Name</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="container">
-                                        <div class="row justify-content-around">
-                                            <div class="col-sm-12 col-lg-3">
-                                                <div class="card p-4 card-no-border card-article ">
-                                                    <img src="./asset/img/Illustration2.png " class="card-img-top img-fluid " alt="... ">
-                                                    <div class="card-body text-center ">
-                                                        <h5 class="card-title ">Insert Name</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-12 col-lg-3">
-                                                <div class="card p-4 card-no-border card-article ">
-                                                    <img src="./asset/img/Illustration2.png " class="card-img-top img-fluid " alt="... ">
-                                                    <div class="card-body text-center ">
-                                                        <h5 class="card-title ">Insert Name</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-12 col-lg-3">
-                                                <div class="card p-4 card-no-border card-article ">
-                                                    <img src="./asset/img/Illustration2.png " class="card-img-top img-fluid " alt="... ">
-                                                    <div class="card-body text-center ">
-                                                        <h5 class="card-title ">Insert Name</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <div class="owl-one owl-carousel owl-theme">
+                <div class="text-center card-article">
+                    <img src="./asset/img/Illustration2.png" class="card-img-top " alt="">
+                    <div class="card-body text-center">
+                        <h5 class="card-titlte">Insert Text</h5>
+                        <h5 class="card-titlte">Insert Text</h5>
+                    </div>
+                </div>
+                <div class="card-article">
+                    <img src="./asset/img/Illustration2.png" class="card-img-top " alt="">
+                    <div class="card-body text-center">
+                        <h5 class="card-titlte">Insert Text</h5>
+                        <h5 class="card-titlte">Insert Text</h5>
+                    </div>
+                </div>
+                <div class="card-article">
+                    <img src="./asset/img/Illustration2.png" class="card-img-top " alt="">
+                    <div class="card-body text-center">
+                        <h5 class="card-titlte">Insert Text</h5>
+                        <h5 class="card-titlte">Insert Text</h5>
+                    </div>
+                </div>
+                <div class="card-article">
+                    <img src="./asset/img/Illustration2.png" class="card-img-top " alt="">
+                    <div class="card-body text-center">
+                        <h5 class="card-titlte">Insert Text</h5>
+                        <h5 class="card-titlte">Insert Text</h5>
+                    </div>
+                </div>
+                <div class="card-article">
+                    <img src="./asset/img/Illustration2.png" class="card-img-top " alt="">
+                    <div class="card-body text-center">
+                        <h5 class="card-titlte">Insert Text</h5>
+                        <h5 class="card-titlte">Insert Text</h5>
+                    </div>
+                </div>
+                <div class="card-article">
+                    <img src="./asset/img/Illustration2.png" class="card-img-top " alt="">
+                    <div class="card-body text-center">
+                        <h5 class="card-titlte">Insert Text</h5>
+                        <h5 class="card-titlte">Insert Text</h5>
                     </div>
                 </div>
             </div>
@@ -457,6 +408,77 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js " integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s " crossorigin="anonymous "></script>
+    <script src="./asset/js/owl.carousel.min.js"></script>
+    <script src="./asset/js/owl.carousel.js"></script>
+    <script>
+        $('.owl-one').owlCarousel({
+            item: 3,
+            navText: ["<img src='./asset/img/ARROW - Left (Short).png'>", "<img src='./asset/img/ARROW - Right (Short).png'>"],
+            dots: false,
+            loop: true,
+            center: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false,
+                    dots: true,
+                },
+                768: {
+                    items: 2,
+                    nav: true,
+                },
+                992: {
+                    items: 3,
+                    nav: true,
+                }
+            }
+        });
+    </script>
+    <script>
+        $('.owl-two').owlCarousel({
+            item: 3,
+            dots: false,
+            loop: true,
+            center: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false,
+                    dots: true,
+                },
+                768: {
+                    items: 3,
+                    nav: true,
+                },
+                992: {
+                    items: 3,
+                    nav: true,
+                }
+            }
+        });
+        $('.owl-tree').owlCarousel({
+            item: 3,
+            navText: ["<img src='./asset/img/ARROW - Left (Short).png'>", "<img src='./asset/img/ARROW - Right (Short).png'>"],
+            dots: false,
+            loop: true,
+            center: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false,
+                    dots: true,
+                },
+                768: {
+                    items: 2,
+                    nav: true,
+                },
+                992: {
+                    items: 3,
+                    nav: true,
+                }
+            }
+        });
+    </script>
 </body>
 
 </html>
